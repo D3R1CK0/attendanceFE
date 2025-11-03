@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import { Button } from "react-bootstrap";
-import { addDetails } from "../services/allApi";
+import { addDetails } from "../services/AllApi";
 
 const AddStudent = () => {
   const [id, setId] = useState("");
